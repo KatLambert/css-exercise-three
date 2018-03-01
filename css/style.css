@@ -11,7 +11,6 @@ body {
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: fixed;
   width: 420px;
   background-color: #0000;
 }
@@ -28,13 +27,17 @@ h3{
 
 }
 .arrow{
-  display: inline;
-  position: relative;
-  padding-left: 90%;
+  display: inline-block;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: right;
 
 }
 
 .arrow-left{
+
 }
 
 .container {
@@ -45,23 +48,24 @@ h3{
 
 .content {
   padding-left: 20px;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-right: 8px;
   padding-bottom:15px;
-  display:inline-block;
+  display: inline-block;
 }
 
-.fa fa-chevron-right fa-2x {
-  display: inline-block;
-  position: relative;
-}
 
 .location {
   background-color: #DEDEDE;
   border: 1px solid #0000;
   margin: 1px;
-  padding: .10%;
+  padding: 1px;
   width: 420px;
+
+}
+
+.location:hover {background-color: #959b97;
+  } /* mouse over */
 
 }
 
